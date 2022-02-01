@@ -35,12 +35,12 @@ export default function Header() {
   }
 
   const getHeaderOptionsClass =(index)=>{
-    let classes = "header-option";
+    let classes = "header-options";
     if(index < TOTAL_SCREENS.length -1)
     classes += "header-option-seperator";
 
     if(selectedScreen === index)
-    classes += "selected-header-options"
+    classes += "selected-header-option"
     return
   }
 
@@ -61,13 +61,18 @@ export default function Header() {
                       <FontAwesomeIcon className="header-hamburger-bars" icon={faBars}/>
                     </div>
                     <div className ="header-logo">
-                      <span>Obertinca</span>
-                      </div>
-                      <div className ={(showHeaderOptions) ? "header-options show-hamburger-options" : "header-options"}>
+                      {/* <span>Obertinca</span> */}
+                    </div>
+                      <div className ={
+                        (showHeaderOptions) 
+                        ? "header-options show-hamburger-options" 
+                        : "header-options"
+                      }
+                        >
                         {getHeaderOptions()}
                       </div>
                   </div> 
                 </div>
           </div> 
-  )
+  );
 }
