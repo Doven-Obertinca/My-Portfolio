@@ -14,7 +14,7 @@
 .about-me-card{
     display: flex;
     width: 100%;
-    box-shadow: 0 0px 20px -2px #2c4149;
+    box-shadow: 0 0px 20px -2px rgb(57, 102, 83);
 }
 
 .about-me-profile{
