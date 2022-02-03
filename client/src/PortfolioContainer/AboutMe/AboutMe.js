@@ -14,15 +14,21 @@ export default function AboutMe(props) {
 
   const SCREEN_CONSTANTS = {
     description:
-      "Un jom Doveni dhe i dua shum Gresen, Arien dhe Matt Levik. Mendoj qe jom ni bab i mire dhe nje burre i perkushtuar, mirpo kta vendosin se si jam :P",
+      "I want to participate in big and important projects and be part of a change in the future of the technology.",
     highlights: {
       bullets: [
-        "Full stack web and software development",
-        "Full stack web and software development",
-        "Full stack web and software development",
-        "Full stack web and software development",
-        "Full stack web and software development",
-        "Full stack web and software development",
+        "Full-Stack Web Developer",
+        "JavaScript",
+        "ExpressJS",
+        "GatsbyJS",
+        "React",
+        "NodeJS",
+        "Bootstrap",
+        "CSS",
+        "HTML5",
+        "MongoDB",
+        "MySQL",
+        "SASS"
       ],
       heading: " Some Highlights:",
     },
