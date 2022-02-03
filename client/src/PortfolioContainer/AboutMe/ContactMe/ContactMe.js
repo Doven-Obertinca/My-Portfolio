@@ -57,7 +57,7 @@ export default function ContactMe(props) {
             }catch (error){
                 console.log(error)
             }
-            e.preventDefault();
+            // e.preventDefault();
            
             
         }
