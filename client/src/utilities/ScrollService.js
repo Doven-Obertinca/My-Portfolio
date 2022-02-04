@@ -1,6 +1,6 @@
 import {TOTAL_SCREENS} from './commonUtils'
 import {Subject} from 'rxjs'
-// import {object} from "react"
+import {object} from "react"
 
 export default class ScrollService{
     static scrollHandler = new ScrollService();

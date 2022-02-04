@@ -21,7 +21,8 @@
 }
 
 .header-options{
-    display: flex;
+    /* display: flex; */
+    display: contents;
     align-items: center;
 }
 

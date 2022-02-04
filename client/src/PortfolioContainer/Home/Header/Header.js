@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState,useEffect} from 'react';
 import { TOTAL_SCREENS, GET_SCREEN_INDEX } from "../../../utilities/commonUtils"
 import ScrollService from "../../../utilities/ScrollService"
 import {faBars} from "@fortawesome/free-solid-svg-icons"
@@ -13,7 +13,7 @@ export default function Header() {
   const updateCurrentScreen = (currentScreen) => {
     if(!currentScreen || !currentScreen.screenInView)
     return;
-    let screenIndex = GET_SCREEN_INDEX(currentScreen.screenInView)
+    let screenIndex = GET_SCREEN_INDEX(currentScreen.screenInView);
     if(screenIndex < 0)
     return
 
@@ -35,7 +35,7 @@ export default function Header() {
   }
 
   const getHeaderOptionsClass =(index)=>{
-    let classes = "header-options";
+    let classes = "header-option";
     if(index < TOTAL_SCREENS.length -1)
     classes += "header-option-seperator";
 
